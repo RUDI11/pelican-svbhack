@@ -1,12 +1,7 @@
 # SVBHACK
 
-pelican-svbhack is a responsive theme for [Pelican](http://getpelican.com), it is my hack of a svbtle-like theme.
-
-## DEMO
-
-You can see the [theme in action](http://www.giuliofidente.com/).
-
-![theme screenshot](https://raw.github.com/gfidente/pelican-svbhack/master/screenshot.png)
+pelican-svbhack is a responsive theme for [Pelican](http://getpelican.com), it is a hack of a svbtle-like theme.
+With slightly altered layout compared to the original one.
 
 ## FEATURES
 
@@ -19,10 +14,6 @@ You can see the [theme in action](http://www.giuliofidente.com/).
 
 - no IE testing
 - no custom menu
-
-## INSTALL
-
-Clone the [repository](https://github.com/gfidente/pelican-svbhack), edit your `pelicanconf.py` and modify the `THEME` variable to make it point to the downloaded theme location.
 
 ## PELICANCONF.PY
 
@@ -47,7 +38,7 @@ When developing locally, you may want to set the following variable: `SITEURL = 
 
 ## AUTHOR
 
-pelican-svbhack is authored by Giulio Fidente.
+pelican-svbhack is originally authored by Giulio Fidente, this fork by Christian Diller slightly alters the layout.
 
 ## LICENSE
 
