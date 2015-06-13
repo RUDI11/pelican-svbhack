@@ -1,7 +1,8 @@
 # SVBHACK
 
 pelican-svbhack is a responsive theme for [Pelican](http://getpelican.com), it is a hack of a svbtle-like theme.
-With slightly altered layout compared to the original one.
+
+This fork slightly alters the original layout.
 
 ## FEATURES
 
