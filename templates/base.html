@@ -65,6 +65,9 @@
       {% for title, link in MENUITEMS %}
       <a href="{{ link }}">{{ title }}</a> &nbsp;&brvbar;&nbsp;
       {% endfor %}
+      {% for name, link in TOP_LINKS %}
+      <a href="{{ link }}">{{ name }}</a> &nbsp;&brvbar;&nbsp;
+      {% endfor %}
       {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
       <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a> &nbsp;&brvbar;&nbsp;
       {% endfor %}{% endif %}
