@@ -6,9 +6,9 @@
 @dark-grey:  #4d4d4d;
 @blue:  #0e94ec;
 @accent:  @blue;
-@sans: 'PT Sans', sans-serif;
-@serif: 'PT Serif', serif;
-@mono: 'PT Mono', monospace;
+@sans: 'Ubuntu', sans-serif;
+@serif: 'Ubuntu', serif;
+@mono: 'Ubuntu Mono', monospace;
 
 body {
   margin: 0;
@@ -78,19 +78,20 @@ aside {
 
 main {
   header {
-    padding: 40px;
+    padding: 20px;
+    padding-left: 40px;
     border-top: @light-grey 1px solid;
     border-bottom: @light-grey 1px solid;
 
     p {
       font-weight: bold;
-      font-size: 10px;
+      font-size: 14px;
       text-transform: uppercase;
     }
   }
 
   article {
-    max-width: 640px;
+    max-width: 800px;
     padding: 40px;
 
     div.article_title {
@@ -176,7 +177,7 @@ main {
 
 @media screen and (min-width: 1024px) {
   aside {
-    width: 25%;
+    width: 20%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -188,7 +189,7 @@ main {
     }
 
     div#user_meta {
-      max-width: 192px;
+      max-width: 250px;
       text-align: right;
 
       ul {
@@ -200,10 +201,10 @@ main {
   }
 
   main {
-    width: 75%;
+    width: 80%;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 20%;
     overflow-x: hidden;
     overflow-y: hidden;
 
