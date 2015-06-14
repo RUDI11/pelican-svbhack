@@ -60,19 +60,19 @@
   <main>
     <header>
       <p>
-      <a href="/">Home</a> &brvbar;
+      <a href="/">Home</a> &nbsp;&brvbar;&nbsp;
       {% for title, link in MENUITEMS %}
-      <a href="{{ link }}">{{ title }}</a> &brvbar;
+      <a href="{{ link }}">{{ title }}</a> &nbsp;&brvbar;&nbsp;
       {% endfor %}
       {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
-      <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a> &brvbar;
+      <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a> &nbsp;&brvbar;&nbsp;
       {% endfor %}{% endif %}
       <a href="{{ SITEURL }}/archives.html">Archives</a>
       {% if FEED_ALL_ATOM %}
-      &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
+      &nbsp;&brvbar;&nbsp; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
       {% endif %}
       {% if FEED_ALL_RSS %}
-      &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">RSS</a>
+      &nbsp;&brvbar;&nbsp; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">RSS</a>
       {% endif %}
       {% block header %}
       {% endblock header %}
